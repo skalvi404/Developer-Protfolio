@@ -117,6 +117,34 @@ nav h2 {
 
 /* Hero Section Design End */
 
+/* wh-webdev desing start */
+
+/* content-1 Stat */
+
+
+
+
+/* content-1 End */
+
+/* content-2 Stat */
+.content-2-container{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid red;
+}
+.content-2-image{
+background-image: url(../resources/B10A1-Challenge-Begins/assets/content-2.png);
+width: 259.56px;
+height: 217.01px;
+border: 2px solid red;
+}
+
+/* content-2 End */
+
+
+
+
+
 footer{
     width: 400px;
     height: 350px;
