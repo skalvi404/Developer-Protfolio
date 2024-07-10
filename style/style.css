@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 /* Navbar Design Start */
 nav {
     display: flex;
@@ -102,9 +103,10 @@ nav h2 {
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
     margin-top: 10px;
-    
+
 }
-.hero-content button a{
+
+.hero-content button a {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -119,33 +121,211 @@ nav h2 {
 
 /* wh-webdev desing start */
 
+.wh-webdv-container {
+    position: absolute;
+    width: 1140px;
+    height: 1395px;
+    left: 148px;
+    right: 152px;
+    top: 857px;
+    bottom: 2993px;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    border: 2px solid red;
+
+}
+
+.wh-webdv-content {
+    position: static;
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 0px 10px;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
 /* content-1 Stat */
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
 
+.content-1 h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    position: static;
+    width: 852px;
+    height: 39px;
+}
 
+.content-1 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 852px;
+    height: 52px;
+}
 
 
 /* content-1 End */
 
 /* content-2 Stat */
-.content-2-container{
-    display: flex;
-    justify-content: space-between;
-    border:2px solid red;
+
+.content-2-image {
+    background-image: url(../resources/B10A1-Challenge-Begins/assets/content-2.png);
+    width: 259.56px;
+    height: 217.01px;
+    border: 2px solid red;
+
 }
-.content-2-image{
-background-image: url(../resources/B10A1-Challenge-Begins/assets/content-2.png);
-width: 259.56px;
-height: 217.01px;
-border: 2px solid red;
+
+.content-2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    width: 477px;
+    height: 220px;
 }
 
 /* content-2 End */
 
+/* 3rd content start */
+.content-3-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.content-3-image {
+    background-image: url(../resources/B10A1-Challenge-Begins/assets/content3.png);
+    background-position: contain;
+    width: 240px;
+    height: 240px;
+    padding: 10px 100px;
+}
+
+.ctn-value-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 32px;
+
+}
+
+/* 3rd content End*/
 
 
 
+/* 4th content Start*/
 
-footer{
+.content-4-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.content-4-image {
+    background-image: url(../resources/B10A1-Challenge-Begins/assets/content4.png);
+    width: 259.56px;
+    height: 217.01px;
+    border: 2px solid red;
+}
+
+/* 4th content End*/
+
+/* shared-value start */
+
+/* h2 and p tag constant value */
+.heading-for-all h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    flex: none;
+}
+
+/* all content cotainer value start*/
+.cntr-value {
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+
+/* all content cotainer value  End*/
+
+/* all conten-2-contant and content-4-content constant value start */
+.ctn-value {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    width: 477px;
+    height: 220px;
+}
+
+/* all conten-2-contant and content-4-content constant value End */
+
+/* learn More desing start */
+.wh-webdv-content span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    margin-top: 32px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+
+/* learn More desing start */
+
+
+footer {
     width: 400px;
     height: 350px;
     border: 2px solid red;
