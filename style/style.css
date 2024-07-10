@@ -6,6 +6,31 @@
     box-sizing: border-box;
 }
 
+/* shared-value start */
+
+/* h2  tag constant value */
+.heading-for-all h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    flex: none;
+}
+
+/* shared-value End */
+
+/* peragraph color */
+.pera {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
 
 /* Navbar Design Start */
 nav {
@@ -122,20 +147,15 @@ nav h2 {
 /* wh-webdev desing start */
 
 .wh-webdv-container {
-    position: absolute;
-    width: 1140px;
-    height: 1395px;
-    left: 148px;
-    right: 152px;
-    top: 857px;
-    bottom: 2993px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 80px 97px 80px 97px;
-    justify-content: center;
-    align-items: center;
+    margin-top: 74px;
+    margin: 74px 150px;
+    border: 2px solid red;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    border: 2px solid red;
+
 
 }
 
@@ -264,20 +284,6 @@ nav h2 {
 
 /* 4th content End*/
 
-/* shared-value start */
-
-/* h2 and p tag constant value */
-.heading-for-all h2 {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: left;
-    flex: none;
-}
-
 /* all content cotainer value start*/
 .cntr-value {
     order: 0;
@@ -323,7 +329,152 @@ nav h2 {
 
 
 /* learn More desing start */
+.ins-youtube iframe {
+    width: 1140px;
+    height: 614px;
+    border-radius: 16px;
 
+}
+
+.ins-youtube {
+    width: 1140px;
+    height: 614px;
+    padding: 32px auto;
+    border: 2px solid red;
+
+
+}
+
+.ins-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+/* TARGET SCTION START  */
+.target-container {
+    width: 1140px;
+    height: 463px;
+    margin: 150px auto;
+    border: 2px solid red;
+}
+
+.target-head-content {
+    text-align: center;
+
+}
+
+.target-box-container {
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 24px;
+    padding: 40px;
+
+}
+.target-image-html{
+width: 56px;
+height: 56px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+
+border: 2px solid red;
+}
+.target-image-html img{
+    width: 100%;
+   height: 100%;
+}
+.target-image-css{
+width: 56px;
+height: 56px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+
+border: 2px solid red;
+}
+.target-image-css img{
+    width: 100%;
+   height: 100%;
+}
+.target-image-javascript{
+width: 56px;
+height: 56px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+
+border: 2px solid red;
+}
+.target-image-javascript img{
+    width: 100%;
+   height: 100%;
+}
+
+.target-box-html{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.target-box-css{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+border-radius: 16px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.target-box-javascript{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.target-box-container span{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-decoration-line: underline;
+    margin: 24px 0px;
+}
+.target-box-container p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+}
+
+/* TARGET SCTION EMD  */
+
+/* I NEED SUPPORT SECTION */
+
+/* I NEED SUPPORT SECTION */
 
 footer {
     width: 400px;
