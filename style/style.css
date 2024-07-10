@@ -75,7 +75,7 @@ nav h2 {
     width: 1440px;
     height: 652px;
     margin: 0px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .hero-container {
@@ -91,7 +91,7 @@ nav h2 {
     background-image: url(../resources/B10A1-Challenge-Begins/assets/devloper.png);
     width: 240.28px;
     height: 240px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .hero-image img {
@@ -152,7 +152,7 @@ nav h2 {
     align-items: center;
     margin-top: 74px;
     margin: 74px 150px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 
@@ -176,17 +176,8 @@ nav h2 {
     flex-direction: column;
     gap: 32px;
     margin: 0px 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
-
-
-
-
-
-
-
-
-
 
 /* content-1 Stat */
 .content-1 {
@@ -231,7 +222,7 @@ nav h2 {
     background-image: url(../resources/B10A1-Challenge-Begins/assets/content-2.png);
     width: 259.56px;
     height: 217.01px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
@@ -251,7 +242,7 @@ nav h2 {
 .content-3-container {
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .content-3-image {
@@ -281,14 +272,14 @@ nav h2 {
 .content-4-container {
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .content-4-image {
     background-image: url(../resources/B10A1-Challenge-Begins/assets/content4.png);
     width: 259.56px;
     height: 217.01px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* 4th content End*/
@@ -301,7 +292,7 @@ nav h2 {
     margin: 32px 0px;
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 946px;
     height: 336px;
     border-radius: 16px;
@@ -349,7 +340,7 @@ nav h2 {
     width: 1140px;
     height: 614px;
     padding: 32px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 
 }
@@ -370,7 +361,7 @@ nav h2 {
     width: 1140px;
     height: 463px;
     margin: 150px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .target-head-content {
@@ -396,8 +387,8 @@ nav h2 {
     order: 0;
     flex-grow: 0;
     margin: 24px 0px;
-
-    border: 2px solid red;
+/* 
+    border: 2px solid red; */
 }
 
 .target-image-html img {
@@ -413,7 +404,7 @@ nav h2 {
     flex-grow: 0;
     margin: 24px 0px;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .target-image-css img {
@@ -429,7 +420,7 @@ nav h2 {
     flex-grow: 0;
     margin: 24px 0px;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .target-image-javascript img {
@@ -495,13 +486,15 @@ nav h2 {
 .support-section-container {
     background-image: url(../icon/handshake.jpg);
     background-repeat: no-repeat;
-    border: 2px solid red;
-    padding: 120px 150px 250px 150px;
+    /* border: 2px solid red; */
+    padding: 100px 150px 200px 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin:150px;
+    border-radius: 16px;
 
 
 }
@@ -569,7 +562,7 @@ footer {
     height: 100px;
     margin: 80px auto;
     padding: 32px 150px 32px 150px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     border-radius: 16px;
